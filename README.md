@@ -438,10 +438,15 @@ This explains why **v2** performs best: although its *outer loop* traverses the 
 
 <img width="776" height="311" alt="image" src="https://github.com/user-attachments/assets/7b6b264e-0d9e-4f09-a2b3-f28812b4fa04" />
 
-### GPU: Lookup Kernel
+### GPU: Lookup Kernel (v1)
 
 <img width="780" height="318" alt="image" src="https://github.com/user-attachments/assets/84f6d584-29d8-47bf-8882-330e402f8567" />
 <img width="1248" height="309" alt="image" src="https://github.com/user-attachments/assets/ab16eab8-ca46-4926-8eb6-6893238dca32" />
+
+### GPU: Lookup Kernel (v2)
+
+<img width="1015" height="390" alt="image" src="https://github.com/user-attachments/assets/8dbed125-98d2-4453-a846-4372d219d7a5" />
+<img width="1523" height="383" alt="image" src="https://github.com/user-attachments/assets/c4af4175-70f1-4b33-b9b3-f00f4aeebc52" />
 
 ### CPU: MWE-Minimization DP
 
