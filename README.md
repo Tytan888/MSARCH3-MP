@@ -270,7 +270,7 @@ Following this, the GPU times in the tables are presented in the format: **Kerne
 | 9     | 17.138 ms | 0.16147 + 0.10426 + 64.531 = 64.79673 ms | 0.15792 + 0.084 + 1.2264 = 1.46832 ms |
 | 10    | 10.688 ms | 0.16541 + 0.10669 + 60.774 = 61.0461 ms | 0.15789 + 0.083904 + 1.0815 = 1.323294 ms |
 | **AVG** | 15.962 ms | 69.43951 ms | 1.417763 ms |
-| **Speedup vs CPU** | 1× | 0.23× | ~11.3× |
+| **Speedup vs CPU** | 1× | 0.23× | 11.26× |
 
 ### Lookup Table Performance (50 Long Sentences)
 
