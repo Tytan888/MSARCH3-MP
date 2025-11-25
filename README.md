@@ -434,7 +434,39 @@ This explains why **v2** performs best: although its *outer loop* traverses the 
 
 ## Screenshots of Program Execution
 
-TODO Insert Screenshots
+### CPU: Lookup Kernel
+
+<img width="776" height="311" alt="image" src="https://github.com/user-attachments/assets/7b6b264e-0d9e-4f09-a2b3-f28812b4fa04" />
+
+### GPU: Lookup Kernel
+
+<img width="780" height="318" alt="image" src="https://github.com/user-attachments/assets/84f6d584-29d8-47bf-8882-330e402f8567" />
+<img width="1248" height="309" alt="image" src="https://github.com/user-attachments/assets/ab16eab8-ca46-4926-8eb6-6893238dca32" />
+
+### CPU: MWE-Minimization DP
+
+<img width="778" height="305" alt="image" src="https://github.com/user-attachments/assets/84e2ec70-9f4f-44b4-93aa-f2da8ca79ff2" />
+
+### GPU: MWE Minimization DP (v1)
+
+<img width="782" height="274" alt="image" src="https://github.com/user-attachments/assets/3ad7b897-5428-470f-8b08-f3d54c20ba75" />
+<img width="915" height="331" alt="image" src="https://github.com/user-attachments/assets/ae7f1120-a945-4f53-9300-015364118c4d" />
+
+### GPU: MWE Minimization DP (v2)
+
+<img width="770" height="312" alt="image" src="https://github.com/user-attachments/assets/06f8fe0d-4028-4912-9a41-e89f7088163f" />
+<img width="874" height="326" alt="image" src="https://github.com/user-attachments/assets/601cb531-6fe3-45e4-ab3f-1daae05289be" />
+
+### GPU: MWE Minimization DP (v3)
+
+<img width="774" height="310" alt="image" src="https://github.com/user-attachments/assets/6d1c59cf-3030-4316-b7ec-91191a0d386e" />
+<img width="835" height="327" alt="image" src="https://github.com/user-attachments/assets/2e608385-7881-4ed2-9875-27f1d4932a7e" />
+
+### GPU: MWE Minimization DP (v4)
+
+<img width="772" height="308" alt="image" src="https://github.com/user-attachments/assets/f0158b26-7efc-41aa-8f43-b9d1bb155d72" />
+<img width="842" height="328" alt="image" src="https://github.com/user-attachments/assets/21ec10f8-f710-4c19-a4bb-fc16f912e2e1" />
+
 
 ## Conclusion
 
