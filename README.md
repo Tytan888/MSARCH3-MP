@@ -1,6 +1,12 @@
+
 ## Overview of the Project
 
 This project focuses on automatically segmenting sentences into meaningful multiword expressions (MWEs) such as “looked up” or “take off,” which traditional word-by-word processing fails to capture. Existing work on MWE segmentation is limited and does not explore parallelization. This project accelerates MWE detection by parallelizing both the lookup-table construction and the dynamic programming algorithm using CUDA, aiming to significantly reduce the O(n²) runtime of current approaches.
+
+## Project Presentation & Demo
+
+We have prepared a **short recorded presentation and demonstration** of our project. You can view it here: [Watch the Presentation & Demo](https://drive.google.com/file/d/1cGnBCg4dX4wOz6MsdRu4y6Ue9djnsRNv/view?usp=sharing)
+
 
 ## Task: Minimum Multiword Expression (MWE) Segmentation
 
@@ -219,7 +225,7 @@ However, analyzing memory statistics with `ncu` requires root-level access, whic
 To properly evaluate our various baseline sequential and CUDA-parallelized implementations described previously, we tested our algorithms using real data. Two main sources of data were required: the MWE dictionary for lookup table creation, and a set of test sentences containing MWEs.
 
 ### 1. MWE Dictionary
-To obtain an established source of MWEs, we used **WordNet**, a lexical database of English words that organizes them into sets of synonyms (synsets) and captures semantic relationships between them. WordNet has been widely used in computational linguistics for tasks such as word sense disambiguation and semantic analysis.
+To obtain an established source of MWEs, we used **WordNet** (Miller, 1994), a lexical database of English words that organizes them into sets of synonyms (synsets) and captures semantic relationships between them. WordNet has been widely used in computational linguistics for tasks such as word sense disambiguation and semantic analysis.
 
 After extracting MWEs from WordNet, we performed preprocessing:
 - For nouns, we generated plural forms (e.g., "light bulb" → "light bulbs").  
@@ -493,6 +499,8 @@ All AI-assisted outputs were **carefully reviewed and verified by the authors** 
 - Constant, M., Eryiğit, G., Monti, J., Van Der Plas, L., Ramisch, C., Rosner, M., & Todirascu-Courtier, A. (2017). *Survey: Multiword Expression Processing: A Survey*. Computational Linguistics, 43, 837–892. [https://doi.org/10.1162/coli_a_00302](https://doi.org/10.1162/coli_a_00302)
 
 - Kanclerz, K., & Piasecki, M. (2022). *Deep Neural Representations for Multiword Expressions Detection*, 444–453. [https://doi.org/10.18653/v1/2022.acl-srw.36](https://doi.org/10.18653/v1/2022.acl-srw.36)
+
+- Miller, G. A. (1994). *WordNet: A Lexical Database for English*. In *Human Language Technology: Proceedings of a Workshop held at Plainsboro, New Jersey, March 8–11, 1994*. [https://aclanthology.org/H94-1111/](https://aclanthology.org/H94-1111/)
 
 - Schneider, N., Danchik, E., Dyer, C., & Smith, N. (2014). *Discriminative Lexical Semantic Segmentation with Gaps: Running the MWE Gamut*. Transactions of the Association for Computational Linguistics, 2, 193–206. [https://doi.org/10.1162/tacl_a_00176](https://doi.org/10.1162/tacl_a_00176)
 
