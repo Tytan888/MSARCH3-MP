@@ -477,6 +477,12 @@ This explains why **v2** performs best: although its *outer loop* traverses the 
 
 This work has demonstrated the application of **CUDA parallelization** to the problem of segmenting sentences into **MWEs**. By presenting various **implementations** and **iterations**, we provided insights into **minimizing overhead**, particularly in the context of **CPU-GPU communication**, and highlighted the importance of designing algorithms that take advantage of **coalesced memory access**. Furthermore, given that our CUDA implementations achieved significant **speedups** compared to traditional **sequential implementations**, this project exemplifies the power of **parallelization** and the substantial **performance gains** that can be achieved through careful and thoughtful **GPU optimization**.
 
+### Use of AI Assistance
+
+For transparency, **ChatGPT** was used to assist in **grammar refinement**, **wording improvements**, and **formatting** throughout this report. Prompts were primarily of the form: *“[Paragraph]. Please fix the wording of this section.”* All **analysis, insights, interpretations, and technical discussions** originate solely from the authors and reflect their own understanding and reasoning.  
+
+All AI-assisted outputs were **carefully reviewed and verified by the authors** to ensure that they were **factually correct** and **null of hallucinations**.
+
 ## Authors of This Project
 - Encinas, Robert Joachim Olivera
 - Lim, Lanz Kendall Yong
